@@ -17,9 +17,8 @@ git submodule update
 1. ``brew install cmake`` if cmake not installed
 2. create folder where build files will be placed:
     ```
-    cd ~
-    mkdir ycm_build
-    cd ycm_build
+    cd ~ && mkdir ycm_build && cd ycm_build
+
     ```
 3. Run cmake (no C/C++ support):
     ``` cmake -G "Unix Makefiles" . ~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp```
