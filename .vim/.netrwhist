@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/ernestwong/Documents/Code/Boltmade/dejero-web/.git'
+let g:netrw_dirhist_2='/Users/ernestwong/Documents/Code/Boltmade/dejero-web/.git/info'
+let g:netrw_dirhist_3='/Users/ernestwong/Scripts'
+let g:netrw_dirhist_4='/Users/ernestwong/Documents/Code/Boltmade/dejero-web/app/controllers/api'
+let g:netrw_dirhist_5='/Users/ernestwong/.vim'
