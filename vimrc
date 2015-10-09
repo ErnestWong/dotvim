@@ -21,6 +21,7 @@ Bundle 'git://github.com/tpope/vim-commentary.git'
 Bundle 'git://github.com/tpope/vim-repeat.git'
 Bundle 'https://github.com/terryma/vim-expand-region.git'
 Bundle 'https://github.com/scrooloose/nerdtree.git'
+Bundle 'git://github.com/altercation/vim-colors-solarized.git'
 
 Plugin 'Valloric/YouCompleteMe'
 call vundle#end()
