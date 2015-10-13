@@ -213,3 +213,6 @@ vmap v <Plug>(expand_region_expand)
 vmap <C-v> <Plug>(expand_region_shrink)
 
 map <C-a> <C-Z>
+
+" for searching highlighted text
+vnoremap // y/<C-R>"<CR>
