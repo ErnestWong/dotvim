@@ -23,6 +23,7 @@ Bundle 'https://github.com/terryma/vim-expand-region.git'
 Bundle 'https://github.com/scrooloose/nerdtree.git'
 Bundle 'git://github.com/altercation/vim-colors-solarized.git'
 Bundle 'https://github.com/airblade/vim-gitgutter.git'
+Bundle 'https://github.com/Yggdroot/indentLine.git'
 
 Plugin 'Valloric/YouCompleteMe'
 call vundle#end()
@@ -222,5 +223,5 @@ map <C-a> <C-Z>
 vnoremap // y/<C-R>"<CR>
 
 "UNCOMMENT IF GITGUTTER IS SLOW
-let g:gitgutter_realtime = 0
-let g:gitgutter_eager = 0
+"let g:gitgutter_realtime = 0
+"let g:gitgutter_eager = 0
