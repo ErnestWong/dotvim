@@ -59,6 +59,9 @@ nmap <C-S> :w<CR>
 imap <c-s> <Esc>:w<CR>
 nmap Q :q <enter><CR>
 
+" remap colon to semicolon
+:nmap ; :
+
 " scroll up/down page
 nmap D <C-D>
 nmap U <C-U>
@@ -219,5 +222,5 @@ map <C-a> <C-Z>
 vnoremap // y/<C-R>"<CR>
 
 "UNCOMMENT IF GITGUTTER IS SLOW
-"let g:gitgutter_realtime = 0
-"let g:gitgutter_eager = 0
+let g:gitgutter_realtime = 0
+let g:gitgutter_eager = 0
