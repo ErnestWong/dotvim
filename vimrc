@@ -25,6 +25,7 @@ Bundle 'https://github.com/scrooloose/nerdtree.git'
 Bundle 'git://github.com/altercation/vim-colors-solarized.git'
 Bundle 'https://github.com/airblade/vim-gitgutter.git'
 Bundle 'https://github.com/Yggdroot/indentLine.git'
+Bundle 'https://github.com/Raimondi/delimitMate.git'
 
 Plugin 'Valloric/YouCompleteMe'
 call vundle#end()
