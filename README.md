@@ -6,7 +6,7 @@
 cd ~
 git clone git@github.com:ErnestWong/dotvim.git ~/.vim
 ln -s ~/.vim/vimrc ~/.vimrc
-ln -s ~/.vim/gvimrc ~/.gvimrc
+ln -s ~/.vim/tmux.conf ~/.tmux.conf
 cd ~/.vim
 git submodule init
 git submodule update
