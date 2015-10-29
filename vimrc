@@ -181,7 +181,7 @@ au BufNewFile,BufRead *.ejs set filetype=html
 "tagbar default
 nmap <F8> :TagbarToggle<CR>
 
-map <C-f> :!git grep -i 
+map <C-f> :!git grep -i
 
 inoremap jk <Esc>
 
@@ -213,8 +213,15 @@ let g:airline#extensions#tabline#enabled = 1
 
 let g:airline#extensions#default#layout = [
       \ [ 'a', 'c' ],
-      \ [ 'b', 'y', 'z', 'warning' ]
+      \ [ 'y', 'z', 'warning' ]
       \ ]
+" a- mode, crypt, paste, iminsert
+" b- hunks, branch
+" c- bufferline or filename
+" x- tagbar, filetype, virtualenv
+" y- fileencoding, fileformat
+" z- percentage, line number, column number
+" warning- syntastic, whitespace
 
 " vim-powerline symbols
 "let g:airline_left_sep          = '⮀'
@@ -234,7 +241,7 @@ function! g:ToggleColorColumn()
     set colorcolumn=80
   endif
 endfunction
- 
+
 nnoremap <silent> <F8> :call g:ToggleColorColumn()<CR>
 
 "Used for repeat.vim
