@@ -181,7 +181,7 @@ au BufNewFile,BufRead *.ejs set filetype=html
 "tagbar default
 nmap <F8> :TagbarToggle<CR>
 
-map <C-f> :!git grep -i
+map <C-f> :!git grep -i 
 
 inoremap jk <Esc>
 
@@ -209,8 +209,6 @@ map f *
 let g:airline_theme             = 'powerlineish'
 let g:airline_enable_branch     = 1
 let g:airline_enable_syntastic  = 1
-let g:airline#extensions#tabline#enabled = 1
-
 let g:airline#extensions#default#layout = [
       \ [ 'a', 'c' ],
       \ [ 'y', 'z', 'warning' ]
