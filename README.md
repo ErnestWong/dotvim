@@ -1,6 +1,21 @@
 ##My vim settings.
 
-###How to use:
+###How to use (copy):
+1. Copy all dot files to appropriate location in machine.
+```
+cp vimrc ~/.vimrc
+cp .bash_profile ~/.bash_profile
+cp .bashrc ~/.bashrc
+cp tmux.conf ~/.tmux.conf
+```
+2. To install vim plugins, set up [Vundle](https://github.com/VundleVim/Vundle.vim).
+  
+```
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
+3. Open ``~/.vimrc`` and type ``:PluginInstall``.
+
+###How to use (link):
 
 ```
 cd ~
