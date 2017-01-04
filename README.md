@@ -26,3 +26,13 @@ git submodule update
     ```make ycm_support_libs```
 
 For reference, read https://github.com/Valloric/YouCompleteMe
+
+
+
+###How to make tab completion case insensitive
+
+1. Add the following lines to ``~/.inputrc``:
+```
+# Ignore case while completing
+set completion-ignore-case on
+```
