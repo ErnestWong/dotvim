@@ -1,20 +1,20 @@
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
 
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
 Plugin 'christoomey/vim-tmux-navigator'
-Plugin 'git@github.com:ervandew/supertab.git'
+" Plugin 'git@github.com:ervandew/supertab.git'
 Bundle 'git@github.com:kien/ctrlp.vim.git'
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'git://github.com/tpope/vim-surround.git'
-Bundle 'tpope/vim-rails'
-Bundle 'bkad/CamelCaseMotion'
-Bundle 'https://github.com/scrooloose/syntastic'
-Bundle 'digitaltoad/vim-jade'
+" Bundle 'Lokaltog/vim-easymotion'
+" Bundle 'git://github.com/tpope/vim-surround.git'
+" Bundle 'tpope/vim-rails'
+" Bundle 'bkad/CamelCaseMotion'
+" Bundle 'https://github.com/scrooloose/syntastic'
+" Bundle 'digitaltoad/vim-jade'
 Bundle 'https://github.com/majutsushi/tagbar'
-Bundle 'https://github.com/marijnh/tern_for_vim'
+" Bundle 'https://github.com/marijnh/tern_for_vim'
 Bundle 'https://github.com/tpope/vim-fugitive'
 Bundle 'https://github.com/scrooloose/nerdcommenter.git'
 Bundle 'https://github.com/bling/vim-airline.git'
